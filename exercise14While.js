@@ -20,18 +20,11 @@ if (number < 0) {
 
 
 /*
+Certifique-se de que o Node.js está instalado. 
+Este código utiliza o módulo prompt-sync para capturar a entrada do usuário. Para instalar este módulo, siga os passos abaixo:
 Abra o terminal no diretório onde o arquivo .js está salvo.
-Se estiver usando o VS Code, você pode abrir o terminal integrado.
-Certifique-se de que o Node.js está instalado em seu sistema.
-Verifique isso no terminal com o comando:node -v
-Se o Node.js não estiver instalado, faça o download e instale
-a partir do site oficial Node.js.
-Execute o código usando o comand: node factorialCalculator.js
-
-O código solicitará ao usuário que forneça um número inteiro para calcular o fatorial.
-O programa calculará o fatorial desse número utilizando um loop while e exibirá o resultado no console.
-Se o número for negativo, o programa exibirá uma mensagem informando que o fatorial não é definido para números negativos.
-
+Execute o comando para instalar o prompt-sync: npm install prompt-sync
+Abra o terminal no diretório onde o arquivo .js está salvo. Se estiver usando o VS Code, você pode abrir o terminal integrado.
 
 Ao executar o código, o programa solicitará ao usuário que forneça um número inteiro para calcular o fatorial.
 O programa calculará o fatorial desse número utilizando um loop while e exibirá o resultado no console.
